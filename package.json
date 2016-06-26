@@ -1,0 +1,17 @@
+{
+  "name": "brobone",
+  "version": "0.0.1",
+  "description": "concatanate, minify brobone framework",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^1.0.1"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmed hamuda",
+  "license": "MIT"
+}
