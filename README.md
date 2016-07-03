@@ -25,16 +25,16 @@ Collection is a Backbone Collection, with already built in sort filter and pagin
 
 #Views
 There is number of views:
-Main Views:
-BaseView: Basically the base view: has the basic infrastructure for the views (rendering, destroying, animation etc..)
-ItemView: BaseView that concentrate on standalone items. (more specialized one standalone items)
-ListItemView: ItemView but more specialized for itemviews in the list
-ListView: BaseView for views that contains a list of ItemViews ot ItemListViews
-ContainerView: BaseView that contain the whole page as instance a page with filterView, SortView, ListView, ListItemView
-FormView: ItemView but more specialized for Forms. capable if reading data from the form inputs, set the target model, send it directly to the server. It Has 2 modes Display for only displaying the model data and Edit for creating new model or edit an existing one. Also when editing  the FormVoew gets the data from the model and displays it in the input fields.
+- Main Views:
+- BaseView: Basically the base view: has the basic infrastructure for the views (rendering, destroying, animation etc..)
+- ItemView: BaseView that concentrate on standalone items. (more specialized one standalone items)
+- ListItemView: ItemView but more specialized for itemviews in the list
+- ListView: BaseView for views that contains a list of ItemViews ot ItemListViews
+- ContainerView: BaseView that contain the whole page as instance a page with filterView, SortView, ListView, ListItemView
+- FormView: ItemView but more specialized for Forms. capable if reading data from the form inputs, set the target model, send it directly to the server. It Has 2 modes Display for only displaying the model data and Edit for creating new model or edit an existing one. Also when editing  the FormVoew gets the data from the model and displays it in the input fields.
 Supports a number of input fields: text, checkbox, datapicker, textarea..
 
-Common Views:
-FilterView: ItemView for filter purposes  
-SortView: ItemView for sort purposes
-PagerView: ItemView for paging purposes
+- Common Views:
+- FilterView: ItemView for filter purposes  
+- SortView: ItemView for sort purposes
+-PagerView: ItemView for paging purposes
