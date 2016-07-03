@@ -228,4 +228,4 @@ var UserErrorView = Brobone.Common.ErrorView.extend({
         }
     });
   ```
-  For a wholr working example please take a look at the example folder
+  For a whole working example please take a look at the example folder
