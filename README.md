@@ -4,8 +4,8 @@ Brobone framework makes development easier based on Backbone framework. It conta
   - No Router development.
   - Main route pattern defined in the application start.
   - Controllers take place of routers.
-  - More encapsulation
-## Main modules
+  - More encapsulation.
+
 ### Router
 Router is a Backbone router with little weaks. instance of the router already created when you create a new instance for the application. Router needs a route pattern the default is controllerName/actionName/{optional parameter} but this can be changed to what you need.
 As the application run. the registered controllers will be triggered based on the url change. So when you select an url of #users/list the router will trigger users controller and list action.
